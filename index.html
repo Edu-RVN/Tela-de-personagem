@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character Select
+            </h1>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/baby.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Baby</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="baby" data-name="Baby">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/baby.jpg" alt="Personagem Baby">
+                </li>
+
+                <li class="personagem" id="bonnie" data-name="Bonnie">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/bonnie.jpg" alt="Personagem Bonnie">
+                </li>
+
+                <li class="personagem" id="chica" data-name="Chica">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/chica.jpg" alt="Personagem Chica">
+                </li>
+
+                <li class="personagem" id="ennard" data-name="Ennard">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/ennard.jpg" alt="Personagem Ennard">
+                </li>
+
+                <li class="personagem" id="freddy" data-name="Freddy">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/freddy.jpg" alt="Personagem Freddy">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="springtrap" data-name="Springtrap">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/springtrap.jpg" alt="Personagem Springtrap">
+                </li>
+
+                <li class="personagem" id="glitchtrap" data-name="Glitchtrap">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/glitchtrap.jpg" alt="Personagem Glitchtrap">
+                </li>
+
+                <li class="personagem" id="puppet" data-name="Puppet">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/puppet.jpg" alt="Personagem Puppet">
+                </li>
+
+                <li class="personagem" id="sun" data-name="Sun">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/sun.jpg" alt="Personagem Sun">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/springtrap.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Springtrap</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
